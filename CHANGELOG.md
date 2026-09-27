@@ -1,6 +1,10 @@
 # Changelog
 
-## [Unreleased]
+## [v0.5.6] - 2026-09-27
+
+### Changed
+
+- **The web app template runs on `@pipelex/sdk` 0.26.0**: the SDK's `RunFailedError` now carries a failed run's stored error report and its `ApiResponseError` a refused request's problem document, which the template's failure display reads. A project made from an earlier template keeps its own SDK range, and moving it onto 0.26.0 is a minor step whose breaking changes the SDK's changelog lists.
 
 ### Fixed
 
