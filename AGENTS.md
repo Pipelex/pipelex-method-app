@@ -1,5 +1,7 @@
 # Agent instructions — pipelex-method-apps
 
+> **This repository is frozen for its move into `Pipelex/pipelex-sdk`** (epic L-261001-a2fd94, plan in the workspace root's `wip/sdk-monorepo/plan.md`). Open no new branch here and claim no ledger item this repository owns: those items are re-owned to the new repository when the import lands, and the work happens there.
+
 The guide for AI coding agents at this repository's root is [`CLAUDE.md`](CLAUDE.md), and each template directory carries its own `CLAUDE.md` and `AGENTS.md` for work inside it. Everything there applies regardless of which agent you are. The rules that cause real damage when missed:
 
 - **A template directory must work on its own**: a project is a copy of that directory alone, so nothing in it may reach above it.
