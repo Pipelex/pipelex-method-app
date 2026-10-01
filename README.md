@@ -1,5 +1,7 @@
 # pipelex-method-apps
 
+> **This code is moving to [`Pipelex/pipelex-sdk`](https://github.com/Pipelex/pipelex-sdk)**, one repository for both Pipelex SDKs, the starter templates and the method-app templates, where the method-app templates and `@pipelex/create-method-app` will live under `method-apps/`. Version 0.5.7 is the last release made from this repository, and new work waits for the move rather than starting here.
+
 Templates for an app that runs [MTHDS](https://mthds.ai) methods through the [Pipelex](https://pipelex.com) API, one directory per shape and language. A template ships no method: it ships what every method needs, and one command turns a copy of it into the app for the method you have.
 
 | Template                   | What a copy becomes                                                                                                                                                                         |
