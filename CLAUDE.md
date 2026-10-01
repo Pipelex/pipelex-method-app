@@ -1,5 +1,7 @@
 # pipelex-method-apps
 
+> **This repository is frozen for its move into `Pipelex/pipelex-sdk`** (epic L-261001-a2fd94, plan in the workspace root's `wip/sdk-monorepo/plan.md`). Open no new branch here and claim no ledger item this repository owns: those items are re-owned to the new repository when the import lands, and the work happens there.
+
 The family of Pipelex method templates: one directory per shape and language, each of which a project starts as a copy of. The root holds what belongs to the family, and [`docs/family.md`](docs/family.md) explains it.
 
 ## Layout
