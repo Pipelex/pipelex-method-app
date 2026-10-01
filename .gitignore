@@ -14,6 +14,3 @@ node_modules/
 
 # claude code local settings (per-user, never commit)
 .claude/settings.local.json
-
-# internal planning notes — kept local, never shipped
-/wip/

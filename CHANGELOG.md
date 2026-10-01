@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.5.7] - 2026-10-01
+
+### Security
+
+- **Next.js 16.3.8**: the web app template requires `next` and `eslint-config-next` at `^16.3.8` and locks 16.3.8, past the critical remote-code-execution advisory in `next/og`'s `ImageResponse` that affects Next.js 16.2.0 through 16.3.5 (GHSA-vcvr-r3jv-pc5j). The template does not import `next/og`, but a project made from it inherits the lock and could. The lock also takes the patched `brace-expansion` and `fast-uri`, so `npm audit` reports nothing.
+
 ## [v0.5.6] - 2026-09-27
 
 ### Changed
